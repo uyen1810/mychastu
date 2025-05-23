@@ -53,7 +53,7 @@ public class sv1 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-        response.getWriter().print("Do GET");
+        response.getWriter().print("to do");
         String a = request.getParameter("keyword");
         String b = request.getParameter("cate");
         response.setContentType("text/html;charset=UTF-8");
