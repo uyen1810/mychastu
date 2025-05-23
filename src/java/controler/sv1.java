@@ -53,9 +53,15 @@ public class sv1 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
+<<<<<<< HEAD
         response.getWriter().print("to do");
         String a = request.getParameter("keyword");
         String b = request.getParameter("cate");
+=======
+        response.getWriter().print("To do");
+        String a = request.getParameter("exeption");
+        String b = request.getParameter("continua");
+>>>>>>> origin/main
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
